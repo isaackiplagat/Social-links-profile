@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 62.5%;
+      }
+      body {
+        background-color: hsl(0, 0%, 8%);
+      }
+      .container {
+        max-width: 25rem;
+        /* background-color: hsl(0, 0%, 12%); */
+        background-color: hsl(0, 0%, 12%);
+        margin: 15rem auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+        border-radius: 5px;
+      }
+      .jessicaimg {
+        height: 3.4rem;
+        width: 3.4rem;
+        border-radius: 50%;
+      }
+      .social-link:hover,
+      .social-link:active {
+        background-color: black;
+        font-size: 1.8rem;
+      }
+
+      .social-link:link,
+      .social-link:visited {
+        color: #fff;
+        transition: all 0.1s;
+      }
+      a:link {
+        color: hsl(0, 0%, 100%);
+      }
+      .social-link:link {
+        text-decoration: none;
+        background-color: hsl(0, 0%, 20%);
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 0.6rem;
+        padding: 0.9rem;
+        border-radius: 2px;
+      }
+      .name {
+        color: hsl(0, 0%, 100%);
+        margin-top: 2rem;
+      }
+      .place {
+        color: hsl(75, 94%, 57%);
+        margin-top: 1rem;
+      }
+      .description {
+        color: hsl(0, 0%, 100%);
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="container">
+      <img
+        class="jessicaimg"
+        src="assets/images/avatar-jessica.jpeg"
+        alt="jessica"
+      />
+      <h1 class="name">jessica Randal</h1>
+      <h4 class="place">London, United Kingdom</h4>
+      <p class="description">"Front-end developer and avid reader."</p>
+
+      <a class="social-link" href="#">GitHub</a>
+      <a class="social-link" href="#">Frontend mentor </a>
+      <a class="social-link" href="#">LinkedIn</a>
+      <a class="social-link" href="#">Twitter</a>
+      <a class="social-link" href="#">Instagram</a>
+    </article>
+  </body>
+</html>
